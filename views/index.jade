@@ -1,0 +1,71 @@
+html
+  head
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='/javascripts/global.js')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    style.
+      #panel, #flip {
+      padding: 5px;
+      text-align: center;
+      background-color: #9A6A33;
+      border: solid 3px black;
+      }
+      #panel {
+      padding: 50px;
+      display: none;
+      }
+  body
+    #flip Click to know more
+    #panel Give a try to CRUD
+    p
+      div(align='center')
+        br
+        input#txt_name(type='text', value='NAME')
+        &nbsp&nbsp&nbsp&nbsp
+        input#txt_id(type='text', value='ID')
+        br
+        br
+        button#btn_get(type='button')  GET   
+        &nbsp&nbsp&nbsp&nbsp
+        button#btn_post(type='button')  POST    
+        br
+        br
+        button#btn_put(type='button')  PUT
+        &nbsp&nbsp&nbsp&nbsp     
+        button#btn_delete(type='button')  DELETE  
+      br
+    
+    table(border='2', style='width:100%', bgcolor="#9A6A33")
+        tr
+          th(style='width:50%') ID
+          th NAME
+          tr#1
+            td#1_id
+            td#1_name
+          tr#2
+            td#2_id
+            td#2_name
+          tr#3
+            td#3_id
+            td#3_name
+          tr#4
+            td#4_id
+            td#4_name
+          tr#5
+            td#5_id
+            td#5_name
+          tr#6
+            td#6_id
+            td#6_name
+          tr#7
+            td#7_id
+            td#7_name
+          tr#8
+            td#8_id
+            td#8_name
+          tr#9
+            td#9_id
+            td#9_name
+          tr#10
+            td#10_id
+            td#10_name
