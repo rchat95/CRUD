@@ -1,4 +1,4 @@
-//This is server side code
+//This is server side code for the people to understand
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
